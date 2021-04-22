@@ -1,0 +1,26 @@
+{
+  "name": "signal-firebase-node",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "firebase": "^8.4.1",
+    "vue": "^3.0.5",
+    "vue-router": "^3.5.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "@vitejs/plugin-vue": "^1.2.1",
+    "@vue/compiler-sfc": "^3.0.5",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "eslint": "^7.24.0",
+    "eslint-plugin-vue": "^7.9.0",
+    "typescript": "^4.1.3",
+    "vite": "^2.1.5",
+    "vue-tsc": "^0.0.24"
+  }
+}
